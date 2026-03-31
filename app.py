@@ -197,4 +197,4 @@ data = cursor.execute("SELECT * FROM cases").fetchall()
 df = pd.DataFrame(data, columns=["Name","Location","Symptom","Severity","Hospital"])
 st.dataframe(df)
 
-st.caption("🚀 Built for Hackathon")
+
